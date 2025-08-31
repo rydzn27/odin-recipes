@@ -6,10 +6,18 @@
 
 div {
    background-color: aqua;
-   padding: 10px;
+   padding: 10px 50px;
    font-family: 'Courier New', Courier, monospace;
    border: 1px solid black;
    margin: auto;
    
 }
 
+li {
+    display: inline-block;
+}
+
+.recipe-name {
+    display: block;
+    text-align: center;
+}
