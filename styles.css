@@ -4,17 +4,18 @@
     font-weight: 1000;
 }
 
-div {
-   background-color: aqua;
+.recipes {
    padding: 10px 50px;
    font-family: 'Courier New', Courier, monospace;
    border: 1px solid black;
    margin: auto;
+   text-align: center;
    
 }
 
 li {
     display: inline-block;
+    margin: 10px;
 }
 
 .recipe-name {
