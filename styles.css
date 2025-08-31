@@ -6,6 +6,15 @@ body {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 1000;
+    display: flex;              /* lets us align items horizontally */
+    justify-content: center;    /* center the whole thing */
+    align-items: center;        /* vertically align logo + text */
+    gap: 10px;                  /* space between logo and text */
+}
+
+.logo {
+    width: 50px;            /* adjust size */
+    height: 50px;
 }
 
 .recipes {
