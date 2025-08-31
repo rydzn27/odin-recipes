@@ -7,13 +7,13 @@
 .recipes {
    padding: 10px 50px;
    font-family: 'Courier New', Courier, monospace;
-   border: 1px solid black;
+   
    margin: auto;
    text-align: center;
    
 }
 
-li {
+.recipes li {
     display: inline-block;
     margin: 10px;
     
@@ -29,4 +29,8 @@ li {
     height: 200px;
     object-fit: cover;
     border-radius: 8px; /* makes corners rounded */
+}
+
+body.recipe-page {
+    background-color: azure;
 }
